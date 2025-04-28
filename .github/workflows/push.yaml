@@ -14,4 +14,4 @@ jobs:
         with:
           repository: ArthurBitt/repo_listener_teste
           event-type: test
-          client-payload: '{"branch": "${{ github.ref_name }}", "repo": "ArthurBitt/repo_caller_teste"}'
+          client-payload: '{"branch": "${{ github.ref_name }}", "repo": "https://github.com/ArthurBitt/repo_listener_teste/actions"}'
